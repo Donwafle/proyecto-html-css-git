@@ -1,0 +1,277 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+}
+
+.body{
+  text-align: center;
+  margin: 10px;
+  padding: 100px;
+  border: 1px dashed;
+  }
+
+.viajar{
+    border: 2x solid black;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    background-image: url("https://source.unsplash.com/ONpGBpns3cs");  
+    background-color: #ccccb3;
+}
+
+.hoteles{
+    border: 21x solid black;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    background-image: url("https://source.unsplash.com/k1OlQaEK2qI");
+}
+
+.vuelos{
+    border: 21x solid black;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    background-image: url("https://source.unsplash.com/TrhLCn1abMU");
+    background-color: #ccccb3;
+}
+
+.contactanos{
+    border: 21x solid black;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    background-image: url("https://source.unsplash.com/-0xCCPIbl3M");
+}
+
+.text-viajar{
+
+    position: relative;
+    font-size: xx-large;
+    line-height: 24px;
+    color: white;
+    font-family: 'Baloo Paaji 2', sans-serif;
+    text-align: center;
+    top:50%;
+}
+
+.Menu-Cabecera {
+    overflow: hidden;
+    background-color:transparent;
+    margin-right: 20px;    
+  }
+  
+  .Menu-Cabecera a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Baloo Paaji 2', cursive;
+  }
+  
+  .cajacontacto{
+    border: 1px solid white;
+  }
+
+  label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+  .barrabusqueda{
+    height: 40px;
+    padding: 0px;
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  
+  .flotante{
+    position:fixed;
+    width:40px;
+    height:40px;
+    bottom:30px;
+    right:50px;
+    background-color:rgba(255, 255, 255, 0);
+    color: rgb(238, 62, 18);
+    text-align:center;
+    font-size: 40px;
+  }
+  
+  .icono-flotante{
+    margin-top:44px;
+    margin-left: 40%;
+     }
+
+  .plane{
+      color: rgb(255, 255, 255); 
+      margin-left: 10%;
+      margin-top: 20px;
+      font-size: 40px;
+  }   
+i span{
+  font-size: 30px;
+  font-family: 'Baloo Paaji 2', sans-serif;
+}
+
+.tarjetas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+article{
+  background-color: white;
+  border-color: cornsilk;
+  padding: 3px;
+  margin: 15px;
+  box-shadow: 1px 2px;
+  margin-right: 5%;
+}
+
+article img{
+  max-width: 200px;
+}
+
+article p{
+  text-align: justify;
+  font-family: 'Baloo Paaji 2', sans-serif;
+  margin: 10 10 10 10;
+  line-height: 100%;
+  padding: 10%;
+}
+
+article span{
+font-family: 'Baloo Paaji 2', sans-serif;
+font-size: 20px;
+}
+
+#masinfo {
+  background-color: rgb(219, 47, 47);
+  margin-bottom: 20px;
+  padding: .5em;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'Baloo Paaji 2', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.flotante{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+  text-align:center;
+}
+
+.iconoflotante{
+	margin-top:22px;
+}
+
+.tarjetas-vuelos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;  
+}
+
+.tarjetas-vuelos article{
+  width: 300px;
+  height: 100px;
+  background-color: crimson;
+  font-size: small;
+}
+
+.tarjetas-vuelos article img{
+  max-width: 90px;
+}
+
+.column{
+  text-align: center;
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 250px;
+  margin-left: 40px;
+  margin-bottom: 60px;
+  background-color: white;
+}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+ .contenedor{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    font-family: 'Baloo Paaji 2', sans-serif;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+  h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Baloo Paaji 2', sans-serif;
+    color:white;
+    font-size: 30px;
+}
+
+  #enviar{
+    background-color: rgb(219, 47, 47);
+    margin-bottom: 20px;
+    padding: .5em;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    color: #fff;
+    font-family: 'Baloo Paaji 2', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin-top: 20px;
+}
+  
+[type=text]{
+font-size: 20px;
+}
